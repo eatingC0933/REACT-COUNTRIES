@@ -1,9 +1,6 @@
-/* index.css */
-
-/* CSS Variables */
 :root {
   --gap: 1rem;
-  --max: 1152px; /* laptop-friendly max width */
+  --max: 1152px; 
   --bg: #0f172a;
   --fg: #e2e8f0;
   --muted: #94a3b8;
