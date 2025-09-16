@@ -1,0 +1,33 @@
+/* index.css */
+
+/* CSS Variables */
+:root {
+  --gap: 1rem;
+  --max: 1152px; /* laptop-friendly max width */
+  --bg: #0f172a;
+  --fg: #e2e8f0;
+  --muted: #94a3b8;
+  --card: #111827;
+  --accent: #22d3ee;
+}
+
+/* Reset & base */
+* {
+  box-sizing: border-box;
+}
+html, body, #root {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background: linear-gradient(180deg, #020617, #0b1022 50%, #05070e 100%);
+  color: var(--fg);
+}
+
+/* Layout container */
+.container {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--gap) 3rem;
+}
